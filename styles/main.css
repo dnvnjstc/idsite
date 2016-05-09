@@ -378,6 +378,11 @@ font-weight: bold;
 text-transform: uppercase !important;
 }
 
+#top_header .banner_image {
+display:normal;
+width:100%;
+}
+
 .main_row {
 width: 100%;
 float: left;
