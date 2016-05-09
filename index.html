@@ -16,7 +16,8 @@
 
     <script src="scripts/vendor.js"></script>
   </head>
-  <body ng-app="stormpathIdpApp">
+  <body>
+  
   <div id="top_header">
 	<div class="top_outer">
         <div class="top_inner" style="position: absolute;">
@@ -33,7 +34,7 @@
         <div class="banner_image"><img src="images/avail_main_sub.jpg"a alt="" /> </div>
     </div>
   </div>
-	
+  <div ng-app="stormpathIdpApp">
     <script type="text/ng-template" id="views/login.html">
       <div class="view login-view" ng-show="ready">
         <div class="box row">
@@ -407,5 +408,6 @@
        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
      })();
     </script>
+  </div>
   </body>
 </html>
