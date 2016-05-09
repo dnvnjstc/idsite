@@ -304,6 +304,13 @@ padding-bottom:30px;
 }
 
 /* avail site styling */
+#top_header {
+font-family:"Open Sans";
+font-size:14px;
+font-weight:400;
+color:#fff;
+}
+
 #top_header .top_outer { 
 width:100%;
 float:left;
@@ -342,7 +349,7 @@ margin-top:25px;
 
 #top_header .banner_left h1 {
 color:#fff !important;
-background: url('../images/logo.png') left center no-repeat;
+background: url('images/logo.png') left center no-repeat;
 background-size:contain;
 font-size:33px;
 padding:30px 65px !important;
