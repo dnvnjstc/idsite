@@ -349,7 +349,7 @@ margin-top:25px;
 
 #top_header .banner_left h1 {
 color:#fff !important;
-background: url('images/logo.png') left center no-repeat;
+background: url('../images/logo.png') left center no-repeat;
 background-size:contain;
 font-size:33px;
 padding:30px 65px !important;
@@ -580,7 +580,7 @@ bottom: 50px;
 
 .buy_btn h1 {
 color: #00a1a3;
-background: url('images/logo.png') center no-repeat;
+background: url('../images/logo.png') center no-repeat;
 font-size: 33px;
 padding: 0px 0px; 
 }
@@ -607,7 +607,7 @@ cursor: pointer;
 
 .buy_btn_main h1 {
 color: #00a1a3;
-background: url('images/logo.png') center no-repeat;
+background: url('../images/logo.png') center no-repeat;
 font-size: 33px;
 padding: 0px 0px; 
 }
