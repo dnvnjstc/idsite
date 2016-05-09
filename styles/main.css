@@ -36,26 +36,18 @@ height:45px;
 line-height:22.5px;
 color:#fff;
 font-size:17px;
-background:-o-linear-gradient(#42c41a50%,#2dbd0050%);
-background:-moz-linear-gradient(#42c41a50%,#2dbd0050%);
-background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#42c41a50%),color-stop(100%, #2dbd0050%));
-background:-webkit-linear-gradient(#42c41a50%,#2dbd0050%);
-filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2dbd00,endColorstr=#42c41a);
--ms-filter:"progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#2dbd00, endColorstr=#42c41a)";
+background:linear-gradient(#66CCCC,#37B0B0);
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#37B0B0,endColorstr=#66CCCC);
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#37B0B0, endColorstr=#66CCCC)";
 padding:0 40px;
 }
 
 .btn-sp-green:focus,.btn-sp-green:hover {
 color:#fff;
-background:linear-gradient(#43cd1a50%,#2ec70050%);
-background:-o-linear-gradient(#43cd1a50%,#2ec70050%);
-background:-moz-linear-gradient(#43cd1a50%,#2ec70050%);
-background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#43cd1a50%),color-stop(100%,#2ec70050%));
-background:-webkit-linear-gradient(#43cd1a50%,#2ec70050%);
-filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2ec700,endColorstr=#43cd1a);
--ms-filter:"progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#2ec700, endColorstr=#43cd1a)";
+background:linear-gradient(#75D9D9,#60BFBF);
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#60BFBF,endColorstr=#75D9D9);
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#60BFBF, endColorstr=#75D9D9)";
 }
-
 
 .btn-saml {
 background:linear-gradient(#458ac550%,#3b7db550%);
@@ -325,6 +317,8 @@ position:relative;
 
 #top_header .top_outer img {
 width:100%;
+min-height: 316px;
+max-height: 350px;
 }
 
 #top_header .top_inner {
@@ -394,6 +388,7 @@ text-transform: uppercase !important;
 #top_header .banner_image {
 display:normal;
 width:100%;
+overflow:hidden;
 }
 
 .main_row {
