@@ -304,70 +304,71 @@ padding-bottom:30px;
 }
 
 /* avail site styling */
-.top_outer { 
+#top_header .top_outer { 
 width:100%;
 float:left;
 position:relative;
 }
 
-.top_outer img {
+#top_header .top_outer img {
 width:100%;
 }
 
-.top_inner {
+#top_header .top_inner {
 position:absolute;
 left:0;
 top:0;
 width:100%;
 }
 
-.banner_left {
-width: 500px;
-float: left;
-margin-top:25px;
-}
-
-.banner_outer {
+#top_header .banner_outer {
 width:100%;
 float:left;
 margin-top:45px;
 }
 
-.banner_inner {
+#top_header .banner_inner {
 width:1292px;
 margin:0 auto;
 overflow:hidden;
 }
 
-.banner_left h1 {
-color:#fff;
-background: url('images/logo.png') left center no-repeat;
+#top_header .banner_left {
+width: 500px;
+float: left;
+margin-top:25px;
+}
+
+
+#top_header .banner_left h1 {
+color:#fff !important;
+background: url('../images/logo.png') left center no-repeat;
 background-size:contain;
 font-size:33px;
 padding:30px 65px !important;
 }
 
-.banner_left h2 {
-color:#fff;
+#top_header .banner_left h2 {
+color:#fff !important;
 font-size:24px;
 font-weight:300;
 margin:15px 0 0 25px;
 }
 
 
-.banner_left p { 
+#top_header .banner_left p { 
 font-size:15px; 
 line-height:18px; 
-color:#fff; 
+color:#fff !important; 
 margin:15px 0 0 25px; 
 font-weight:300;
 }
 
 
-.banner_left p a {
+#top_header .banner_left p a {
 float: left;
 background: #007070;
-color: #fff;
+color: #fff !important;
 margin-top: 7px;
 line-height: 40px;
 width: 178px;
@@ -552,7 +553,7 @@ color: #ffffff;
 
 .banner_image {
 display:normal;
-width:inherit;
+width:100%;
 }
 
 .buy_btn {
